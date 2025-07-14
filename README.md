@@ -8,7 +8,7 @@ A modern full-stack web application that allows users to register, log in, uploa
 
 - **User Authentication:** Secure registration and login using JWT tokens.
 - **File Upload & Management:** Upload PDF, JPG, JPEG, or PNG files (up to 5MB). Files are stored on the server, and metadata is saved in MongoDB.
-- **File Listing & Download:** View, download, or manage your uploaded files with details like name, type, and upload date.
+- **File Listing:** View uploaded files with details like name, type.
 - **Modern UI:** Responsive, user-friendly interface built with Next.js, React, and Tailwind CSS.
 - **Secure API:** All file operations are protected by authentication middleware.
 
@@ -74,8 +74,8 @@ npm run dev
 
 ## Usage
 1. Register a new user or log in with existing credentials.
-2. Upload files from the dashboard (PDF, JPG, JPEG, PNG, max 5MB).
-3. View, download, or manage your uploaded files.
+2. Upload files from the dashboard View uploaded files.(PDF, JPG, JPEG, PNG, max 5MB).
+3. View uploaded files.
 
 ---
 
