@@ -1,11 +1,11 @@
 // app/auth/register/page.js
 "use client";
 import React, { useState, useEffect } from 'react';
-import { UserIcon, EnvelopeIcon, LockClosedIcon } from '@heroicons/react/20/solid';
+// import { UserIcon, EnvelopeIcon, LockClosedIcon } from '@heroicons/react/20/solid';
 import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
 import { register } from '../../../lib/api/api';
-import { setCredentials } from '../../../lib/redux/authSlice';
+// import { setCredentials } from '../../../lib/redux/authSlice';
 
 const RegisterPage = () => {
   const [username, setUsername] = useState('');
@@ -13,7 +13,7 @@ const RegisterPage = () => {
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
   const router = useRouter();
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const { isAuthenticated } = useSelector((state) => state.auth);
 
   useEffect(() => {

@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { EnvelopeIcon, LockClosedIcon } from '@heroicons/react/20/solid';
 import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '../../../lib/api/api';
